@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar .navbar-brand, .navbar .nav-link {
+    color: #ffffff;
+}
+
+.navbar .nav-link:hover {
+    color: #cccccc;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.vehicle-form {
+    border: 1px solid #dddddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.vehicle-form h4 {
+    margin-bottom: 10px;
+}
+
+.vehicle-form .form-group {
+    margin-bottom: 10px;
+}
+
+#bookingSummary .list-group-item {
+    margin-bottom: 15px;
+}
+
+#successModal .modal-body {
+    font-size: 16px;
+}
+
+#successModal .modal-footer .btn {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .form-group label {
+        font-size: 14px;
+    }
+
+    #successModal .modal-footer .btn {
+        width: 100%;
+    }
+}
